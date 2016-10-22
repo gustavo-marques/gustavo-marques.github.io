@@ -1,0 +1,31 @@
+---
+navigation:
+- text: Home
+  url: /index.html
+- text: Travel
+  title: Letters home from abroad
+  url: /travel.html
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	
+	{% include head.html %}
+	
+	<body id="page-top" class="index">
+		<!--	<div class="container"> -->
+			
+			{% include header.html %}
+			
+			{{ content }}
+			
+			{% include footer.html %}
+		
+	<!-- </div> /container -->
+	
+	
+		{% include scripts.html %}
+	
+	</body>
+
+</html>
