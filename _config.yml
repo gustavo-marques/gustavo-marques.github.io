@@ -1,4 +1,9 @@
-permalink: /notes/:year/:month/:day/:title
+url: https://gustavo-marques.github.io
+baseurl:
+gems: ['jekyll/scholar']
 markdown: kramdown
-port: 4444
-
+permalink: pretty
+# Site settings
+title: Gustavo Marques
+email: gmarques@princeton.edu
+description: "Gustavo Mastrorocco Marques is a physical oceanographer that combine numerical models, observations and theory to study physical processes in the ocean."
