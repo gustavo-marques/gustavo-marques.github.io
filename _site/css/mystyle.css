@@ -996,6 +996,17 @@ padding-bottom: 56.25%;
 padding-top: 60px; overflow: hidden;
 }
 
+@media (min-width: 768px ) {
+  .row {
+      position: relative;
+  }
+
+  .bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
 
 .responsive-video iframe,
 .responsive-video object,
