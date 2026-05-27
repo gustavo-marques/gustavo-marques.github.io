@@ -967,25 +967,19 @@ img::-moz-selection {
 }
 
 img.homephoto{
-   width:180px; /*width of your image*/
-   height:240px; /*height of your image*/
-   object-fit: cover;
-   object-position: center 20%;
-   background-position: center top;
-   margin:10; /* If you want no margin */
-   margin-top:10px;
-   margin-bottom:50px;
-   margin-right:-100px;
-   padding:0; /*if your want to padding */
+   display: block;
+   width:200px;
+   height:auto;
+   margin: 10px auto 50px auto;
+   padding:0;
    -webkit-box-shadow: 0px 0px 10px 0px #4d4d4d;
    -moz-box-shadow: 0px 0px 10px 0px #4d4d4d;
    box-shadow: 0px 0px 10px 0px #4d4d4d;
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;
-   -khtml-border-radius: 8px;  
+   -khtml-border-radius: 8px;
    border-radius: 8px;
    border:solid white 3px;
-   float:center;
 }
 
 .responsive-video {
